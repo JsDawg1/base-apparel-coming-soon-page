@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html, body{
+    height: 100vh;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .container{
+    display: flex;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+     }
+  
+
+ .body h1{
+   max-width: 100px;
+    font-size: 55px;
+    margin-left:150px
+ }
+
+ .body p{
+   margin-left:150px;
+   font-weight: 200;
+   color: grey;
+   
+  }
+  .email {
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    transition: border-color 0.3s ease;
+    
+  }
+
+  .email.focused {
+    border-color: #4CAF50; /* Border color when input is focused */
+  }
+
+ .mail{
+   position: relative;
+   width:350px;
+   max-width: 100%;
+   margin-left:200px;
+ }
+
+ #error{
+   position: absolute;
+   top:10px;
+   right: 65px;
+   display: none;
+    
+ }
+
+ .errorText{
+  opacity: 0;
+  color: red;
+ }
+
+ #submitMail{
+    position: absolute;
+    right: -26px;
+    top: 0; 
+    background: rgb(227,131,162);
+    background: linear-gradient(286deg, rgba(227,131,162,1) 0%, rgba(243,238,238,1) 100%);
+    border:0;
+    width:75px;
+    height:50%;
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px rgb(212, 211, 211);
+   }
+
+
+  .ryt img{
+   height: 100%;
+   width: 400px;
+  }
+
+  .ryt{
+    height:100%;
+  }
+
+  .lft{
+   background-image: url('bg-pattern-desktop.svg');
+   padding-left: 20px;
+  }
+
+  .centerlft{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 450px;
+   height: 100%;
+   margin-right: 200px;
+  }
